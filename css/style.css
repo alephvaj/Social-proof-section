@@ -1,0 +1,131 @@
+body{
+    margin: 7%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+  color: hsl(300, 43%, 22%);
+}
+
+h5{
+  font-family: "Spartan";
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
+}
+p{
+  font-family: "Spartan";
+  font-weight: 400;
+}
+span{
+  font-family: "Spartan";
+  font-weight: 400;
+  color:  hsl(300, 43%, 22%);
+}
+
+.rates{
+  margin-top: 4%;
+}
+.rate{
+  /* display: inline-block; */
+  width: 78%;
+  margin-bottom: 2%;
+  padding: 2% 0;
+  padding-left: 2%;
+  background-color: hsl(303, 10%, 53%);
+  border-radius: 10px;
+}
+.stars{
+  display: inline-block;
+  margin-right: 2%;
+}
+.m-c{margin-left: 10%;}
+.m-b{float: right;}
+
+
+#coment{
+  margin-top: 7%;
+}
+.coment-l{
+  display: inline-block;
+  position: absolute;
+  background-color: hsl(300, 43%, 22%);
+  color: White;
+  left: 0px;
+  margin-left: 7%;
+  width: 27%;
+  padding: 4%;
+  border-radius: 20px;
+}
+.coment-c{
+  display: inline-block;
+  position: absolute;
+  background-color: hsl(300, 43%, 22%);
+  color: White;
+  width: 27%;
+  margin-left: 29.5%;
+  margin-top: 4%;
+  right: auto;
+  left: auto;
+  padding: 4%;
+  border-radius: 10px;
+}
+.coment-r{
+  display: inline-block;
+  position: absolute;
+  background-color: hsl(300, 43%, 22%);
+  color: White;
+  width: 27%;
+  margin-top: 8%;
+  right: 0px;
+  margin-right: 7%;
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.img-coment{
+  border-radius: 60%;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+@media (max-width: 975px){
+  .description{
+    text-align: center;
+  }
+  .rate{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2%;
+    width: auto;
+  }
+  .stars{display: block;}
+  .m-b{float: none;}
+
+  .coment-l{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 4%
+  }
+  .coment-c{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 4%
+  }
+  .coment-r{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 80%;
+  }
+  .img-coment{
+    width: 10%;
+  }
+
+}
